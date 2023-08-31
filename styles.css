@@ -23,3 +23,35 @@ body{
     position: absolute;left: 430pt;
     width: 250pt;
 }
+@media only screen and (max-width:420px){
+    body{
+        background-color:darkslategrey;
+    }
+    .name{
+        font-style: oblique;
+        color: brown;
+        background-color:aliceblue;
+    }
+    .mission{
+        font-style: oblique;
+        color:bisque;
+        font-size: 20pt;
+        
+    }
+    .shelter{
+        width: 300pt;
+        position: absolute;left: 80pt;
+        
+    }
+    .support{
+        width: 300pt;
+        position: absolute;left: 80pt;
+        position: absolute;top: 1000pt;
+    }
+    .arrow{
+        position: absolute;top: 750pt;
+        position: absolute;left: 80pt;
+        width: 250pt;
+        transform: rotate(90deg);
+    }
+}
